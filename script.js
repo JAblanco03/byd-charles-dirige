@@ -23,6 +23,10 @@ function showToast(message) {
   toastTimeout = window.setTimeout(() => toast.classList.remove("is-visible"), 2800);
 }
 
+document.querySelector("#save-contact").addEventListener("click", () => {
+  showToast("Contact file downloading. Open it from Downloads, then choose Add to Contacts.");
+});
+
 function renderContact() {
   const pageTitle = `${contact.name} — Digital Business Card`;
 
