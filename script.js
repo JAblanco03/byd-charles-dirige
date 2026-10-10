@@ -50,7 +50,6 @@ function renderContact() {
   document.querySelector("#email-action").href = emailUrl;
   document.querySelector("#location-action").href =
     `https://maps.google.com/?q=${encodeURIComponent(contact.location)}`;
-  document.querySelector("#website-action").href = contact.url;
   document.querySelector("#email-detail").href = emailUrl;
   document.querySelector("#email-text").textContent = contact.email;
   document.querySelector("#phone-detail").href = phoneUrl;
