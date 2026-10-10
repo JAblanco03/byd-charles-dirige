@@ -561,8 +561,22 @@ h1 {
 }
 
 .detail-arrow {
+  display: grid;
+  width: 16px;
+  height: 16px;
+  flex: 0 0 16px;
+  place-items: center;
   color: #a7b0a8;
-  font-size: 12px;
+}
+
+.detail-arrow svg {
+  width: 13px;
+  height: 13px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.5;
 }
 
 .social-section {

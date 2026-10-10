@@ -3,7 +3,7 @@ const contact = {
   title: "Sales Consultant",
   phone: "+6309610334303",
   email: "dirigecharles26@gmail.com",
-  url: "https://bydcarsphilippines.com/all-vehicles",
+  url: "https://www.messenger.com/e2ee/t/25083185537963617",
   location: "BYD Cordon, Isabela",
   bio: "For BYD unit inquiries, assistance, and other concerns, kindly look for Charles David Dirige at BYD Cordon, Isabela. Feel free to reach out for assistance regarding BYD units, features, services, and other related inquiries.",
   socials: [
